@@ -17,7 +17,7 @@ body{
 .footer{
     padding: 20px;
     text-align: center;
-    background-color: #1C8D73;
+    background-color: #00b300;
     color: whitesmoke;
     font-family: 'Red Hat Text', sans-serif;
 }
@@ -42,7 +42,7 @@ body{
 }
 
 .top_card{
-    background-color: #1C8D73;
+    background-color: #00b300;
     color: white;
     padding: 10px 20px;
     min-width: 400px;
@@ -87,13 +87,13 @@ input{
     outline: none;
     cursor: pointer;
     padding: 10px;
-    background-color: #1C8D73;
+    background-color: #00b300;
     color: white;
     transition: background-color 0.3s ease;
 }
 
 .btn:hover{
-    background-color: #094d3d;
+    background-color: #00b300;
 }
 
 
@@ -124,11 +124,11 @@ label{
 }
 
 .income{
-    background-color: #1C8D73;
+    background-color: #00b300;
 }
 
 .expense{
-    background-color: #E6425E;
+    background-color: #ff0000;
 }
 
 .transaction .right{
@@ -156,17 +156,17 @@ label{
 }
 
 .red {
-    background-color:#E6425E !important;
+    background-color:#ff0000 !important;
 }
 
 #cancel_edit{
     display: none;
     margin-top: 10px;
-    background-color:#E6425E !important;
+    background-color:#ff0000 !important;
 }
 
 #cancel_edit:hover{
-    background-color:#9e1028 !important;
+    background-color:#ff0000 !important;
 }
 
 .second_heading{

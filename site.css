@@ -16,7 +16,9 @@ body{
 
 .header,.footer{
     background-color: #1A8D72;
-    font-family: "Red Hat Display",;
+    font-family: "Red Hat Display", sans-serif;
+    color: white;
+    text-align: center
 }
 
 .main{
@@ -24,4 +26,5 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }

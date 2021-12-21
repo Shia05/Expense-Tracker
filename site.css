@@ -19,6 +19,13 @@ body{
     font-family: "Red Hat Display", sans-serif;
     color: white;
     text-align: center
+    
+
+}
+
+
+.header{
+    font-size: 2rem;
 }
 
 .main{
@@ -26,5 +33,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+}
+
+.topbar{
+    background: #1A8D72;
+    color: white;
+}
+
+.text{
+    color:#ccc;
+    font-size:0.8rem;
+
+}
+
+.amount_holder{
+    font-size: 2rem;
 }

@@ -19,8 +19,6 @@ body{
     font-family: "Red Hat Display", sans-serif;
     color: white;
     text-align: center
-    
-
 }
 
 
@@ -38,14 +36,32 @@ body{
 .topbar{
     background: #00b300;
     color: white;
+    padding:20px;
+    min-width:300px
 }
 
 .text{
     color:#ccc;
     font-size:0.8rem;
-
+    margin-bottom:2px;
 }
 
 .amount_holder{
     font-size: 2rem;
+}
+
+
+
+.form{
+    background-color:#ccc;
+    padding:20px;
+}
+
+.form p {
+    font-size: 1.4rem;
+    margin-bottom:10px;
+}
+
+label, input{
+    display: block;
 }

@@ -16,7 +16,7 @@
     <div class="main">
         <div class="container">
             <div class="topbar"></div>
-            <p>Your current balancw</p>
+            <p>Your current balance</p>
             <p>
                 <span id="currency"></span>
                 <span id="balance"></span>
@@ -26,16 +26,47 @@
             <p>Add Transaction</p>
             <div class="form-control">
                 <label for="name">Name</label>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name" placefolder="e.g. My salary">
             </div>
             <div class="form-control">
-                <label for="name">Name</label>
+                <label for="name">Type</label>
                 <div>
-                    
+                    <input type="radio" name="type" id="income">
+                    <label for="radio">Income</label>
                 </div>
-                <input type="text" name="name" id="name">
+                <div>
+                    <input type="radio" name="type" id="expense">
+                    <label for="radio">Expense</label>
+                </div>
+                <div class="form-control">
+                    <label for="amount">Amount</label>
+                    <input type="number" name="amount" id="amount" placefolder="e.g.300">
+                </div>
+
+                <button>Save Transaction</button>
             </div>
         </div>
+        <p> Transaction List:</p>
+
+        <ul class="list_of_transactions">
+            <li class="transaction income">
+                <p>Income 1</p>
+                <div class="right_side">
+                    <p>RS200</p>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </div>
+            </li>
+            <li class="transaction income"></li>
+                <p>Expense 1</p>
+                <div class="right_side">
+                    <p>RS100</p>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </div>
+            </li>
+        </ul>
+    
     </div>
 
     <div class="footer">
